@@ -1,15 +1,6 @@
 <template>
     <section>
-        <div class="block">
-            <b-switch v-model="showMusic"> Show Music item (using <code>v-if</code>) </b-switch>
-        </div>
-        <div class="block">
-            <b-switch v-model="showBooks"> Show books item (by adding / removing from the array) </b-switch>
-        </div>
-        <div class="block">
-            <b-switch v-model="multiline">Multiline</b-switch>
-        </div>
-        <b-tabs v-model="activeTab" :multiline="multiline">
+        <b-tabs position="is-centered" v-model="activeTab">
             <template v-for="(tab, index) in tabs">
                 <b-tab-item
                     v-if="tab.displayed"
@@ -43,7 +34,7 @@
                     {
                         label: 'Music',
                         content: 'Music: Lorem ipsum dolor sit amet.',
-                        displayed: this.showMusic,
+                        displayed: true,
                     },
                     {
                         label: 'Videos',
@@ -73,13 +64,6 @@
                     tabs.splice(tabs.length - 1, 0, this.bookTab);
                 }
                 return tabs
-            },
-            bookTab() {
-                return {
-                    label: 'Books',
-                    content: 'Books: Lorem ipsum dolor sit amet.',
-                    displayed: true,
-                }
             }
         }
     }

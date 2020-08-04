@@ -8,11 +8,9 @@
 
 <script>
 	import Header from "@/components/header.vue"; // headerをインポート
-	import Navbar from "@/components/navbar.vue"; // navbarをインポート
 	export default {
 		components: {
       Header,
-      Navbar,
 		}
 	};
 </script>
