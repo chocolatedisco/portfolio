@@ -1,71 +1,36 @@
 <template>
-    <section>
-        <b-tabs position="is-centered" v-model="activeTab">
-            <template v-for="(tab, index) in tabs">
-                <b-tab-item
-                    v-if="tab.displayed"
-                    :key="index"
-                    :label="tab.label">
-                    {{ tab.content }}
-                </b-tab-item>
-            </template>
-        </b-tabs>
-    </section>
+    <b-navbar>
+        <template slot="brand">
+            <b-navbar-item tag="router-link" :to="{ path: '/' }">
+                <!-- <img
+                    src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
+                    alt="Lightweight UI components for Vue.js based on Bulma"
+                > -->
+                <img src="@/assets/images/pica.gif">
+            </b-navbar-item>
+        </template>
+        <template slot="start">
+            <b-navbar-item>
+                <nuxt-link to="/profile" >profile</nuxt-link>
+            </b-navbar-item>
+            <b-navbar-item>
+                <nuxt-link to="/skill" >skill</nuxt-link>
+            </b-navbar-item>
+            <b-navbar-item>
+                <nuxt-link to="/products" >products</nuxt-link>
+            </b-navbar-item>
+        </template>
+
+        <!-- <template slot="end">
+            <b-navbar-item>
+                <nuxt-link to="/profile" >profile</nuxt-link>
+            </b-navbar-item>
+            <b-navbar-item>
+                <nuxt-link to="/tmp" >skill</nuxt-link>
+            </b-navbar-item>
+            <b-navbar-item>
+                <nuxt-link to="/tmp" >output</nuxt-link>
+            </b-navbar-item>
+        </template> -->
+    </b-navbar>
 </template>
-
-<script>
-    export default {
-        data() {
-            return {
-                activeTab: 0,
-                showMusic: true,
-                showBooks: false,
-                multiline: true
-            }
-        },
-        computed: {
-            baseTabs() {
-                return [
-                    {
-                        label: 'Pictures',
-                        content: 'Pictures: Lorem ipsum dolor sit amet.',
-                        displayed: true,
-                    },
-                    {
-                        label: 'Music',
-                        content: 'Music: Lorem ipsum dolor sit amet.',
-                        displayed: true,
-                    },
-                    {
-                        label: 'Videos',
-                        content: 'Videos: Lorem ipsum dolor sit amet.',
-                        displayed: true,
-                    },
-                    {
-                        label: 'Games',
-                        content: 'Games: Lorem ipsum dolor sit amet.',
-                        displayed: true,
-                    },
-                    {
-                        label: 'Comics',
-                        content: 'Comics: Lorem ipsum dolor sit amet.',
-                        displayed: true,
-                    },
-                    {
-                        label: 'Movies',
-                        content: 'Movies: Lorem ipsum dolor sit amet.',
-                        displayed: true,
-                    }
-                ]
-            },
-            tabs() {
-                const tabs = [...this.baseTabs]
-                if (this.showBooks) {
-                    tabs.splice(tabs.length - 1, 0, this.bookTab);
-                }
-                return tabs
-            }
-        }
-    }
-</script>
-
