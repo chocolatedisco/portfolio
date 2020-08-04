@@ -7,7 +7,8 @@
         <h4 class="subtitle is-5">My latest works</h4>
       </div>
       <br>
-
+    </div>
+    <div class="container">
       <div class="container portfolio-container">
         <div class="columns">
           <div class="column is-4">
