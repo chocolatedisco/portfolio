@@ -1,5 +1,5 @@
 <template>
-    <b-navbar>
+    <b-navbar fixed-top="true" type="is-dark">
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <!-- <img
@@ -11,13 +11,13 @@
         </template>
         <template slot="start">
             <b-navbar-item>
-                <nuxt-link to="/profile" >profile</nuxt-link>
+                <nuxt-link to="/profile" >Profile</nuxt-link>
             </b-navbar-item>
             <b-navbar-item>
-                <nuxt-link to="/skill" >skill</nuxt-link>
+                <nuxt-link to="/skill" >Skill</nuxt-link>
             </b-navbar-item>
             <b-navbar-item>
-                <nuxt-link to="/products" >products</nuxt-link>
+                <nuxt-link to="/products" >Products</nuxt-link>
             </b-navbar-item>
         </template>
 
