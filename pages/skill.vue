@@ -1,11 +1,15 @@
 <template>
-      <!-- Begin Skills Content -->
-      <div class="section-light skills" id="skills">
-        <div class="container">
+  <!-- Portfolio -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Skill</h3>
+        <!-- <h4 class="subtitle is-5">My latest works</h4> -->
+      </div>
+      <br>
+    </div>
+    <div class="container">
           <div class="columns is-multiline">
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">Skills</h1>
-            </div>
             <div
               class="column is-6"
               data-aos="fade-in"
@@ -35,7 +39,6 @@
               <progress class="progress" value="60" max="100">60%</progress>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- End Skills Content -->
+          </div>
+  </section>
 </template>
