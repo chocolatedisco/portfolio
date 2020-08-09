@@ -53,7 +53,16 @@ export default {
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     '@nuxtjs/bulma',
     'nuxt-buefy',
+    'nuxt-fontawesome',
   ],
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/

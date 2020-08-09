@@ -18,6 +18,26 @@
             <b-navbar-item>
                 <nuxt-link to="/tmp" >Tmp</nuxt-link>
             </b-navbar-item>
+            <div class="navbar-item">
+  <div class="field is-grouped">
+    <p class="control">
+      <a class="button">
+        <span class="icon">
+          <font-awesome-icon icon="dollar-sign"  style="font-size: 30px"/>
+        </span>
+        <span>Tweet</span>
+      </a>
+    </p>
+    <p class="control">
+      <a class="button is-primary">
+        <span class="icon">
+          <i class="fas fa-download" aria-hidden="true"></i>
+        </span>
+        <span>Download</span>
+      </a>
+    </p>
+  </div>
+</div>
         </template>
 
         <!-- <template slot="end">
