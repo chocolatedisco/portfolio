@@ -1,0 +1,7 @@
+@import '~bulma/sass/utilities/_all';
+$navbar-height: 6rem;
+$sizes: (
+  "navbar-height": $navbar-height
+);
+@import '~bulma';
+@import '~buefy/src/scss/buefy';

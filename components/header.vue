@@ -1,28 +1,22 @@
 <template>
-    <b-navbar fixed-top="true" type="is-dark">
+    <b-navbar fixed-top="true" type="is-info">
         <template slot="brand">
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 <img src="@/assets/images/pica.gif">
             </b-navbar-item>
         </template>
         <template slot="start">
-            <b-navbar-item>
-                <nuxt-link to="/profile" >
-                    <font-awesome-icon icon="address-card"/> Profile 
-                </nuxt-link>
+            <b-navbar-item href="/profile">
+                <font-awesome-icon icon="address-card"/> Profile 
             </b-navbar-item>
-            <b-navbar-item>
-                <nuxt-link to="/skill" >
-                    <font-awesome-icon icon="laptop-code"/> Skill 
-                </nuxt-link>
+            <b-navbar-item href="/skill">
+                <font-awesome-icon icon="laptop-code"/> Skill 
             </b-navbar-item>
-            <b-navbar-item>
-                <nuxt-link to="/products" >
-                    <font-awesome-icon icon="server"/>Products 
-                </nuxt-link>
+            <b-navbar-item href="/products">
+                <font-awesome-icon icon="server"/>Products 
             </b-navbar-item>
-            <b-navbar-item>
-                <nuxt-link to="/tmp" ><img src="@/assets/images/pica.gif">Tmp</nuxt-link>
+            <b-navbar-item href="/tmp">
+                <img src="@/assets/images/pica.gif">Tmp
             </b-navbar-item>
         </template>
 
