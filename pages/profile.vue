@@ -1,9 +1,14 @@
 <template>
-
-      <!-- Begin About Me Section -->
-      <div class="section-light about-me" id="about-me">
-        <div class="container">
-
+  <!-- Portfolio -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Portfolio</h3>
+        <h4 class="subtitle is-5">My latest works</h4>
+      </div>
+      <br>
+    </div>
+    <div class="container">
           <div class="columns is-multiline">
             <div class="column is-1 right-image " data-aos="fade-right">
               <img src="@/assets/images/pica.gif">
@@ -31,7 +36,6 @@
               <div class="is-divider"></div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- End About Me Content -->
+    </div>
+  </section>
 </template>

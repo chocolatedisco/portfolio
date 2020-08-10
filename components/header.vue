@@ -7,37 +7,23 @@
         </template>
         <template slot="start">
             <b-navbar-item>
-                <nuxt-link to="/profile" >Profile</nuxt-link>
+                <nuxt-link to="/profile" >
+                    <font-awesome-icon icon="address-card"/> Profile 
+                </nuxt-link>
             </b-navbar-item>
             <b-navbar-item>
-                <nuxt-link to="/skill" >Skill</nuxt-link>
+                <nuxt-link to="/skill" >
+                    <font-awesome-icon icon="laptop-code"/> Skill 
+                </nuxt-link>
             </b-navbar-item>
             <b-navbar-item>
-                <nuxt-link to="/products" >Products</nuxt-link>
+                <nuxt-link to="/products" >
+                    <font-awesome-icon icon="server"/>Products 
+                </nuxt-link>
             </b-navbar-item>
             <b-navbar-item>
-                <nuxt-link to="/tmp" >Tmp</nuxt-link>
+                <nuxt-link to="/tmp" ><img src="@/assets/images/pica.gif">Tmp</nuxt-link>
             </b-navbar-item>
-            <div class="navbar-item">
-  <div class="field is-grouped">
-    <p class="control">
-      <a class="button">
-        <span class="icon">
-          <font-awesome-icon icon="dollar-sign"  style="font-size: 30px"/>
-        </span>
-        <span>Tweet</span>
-      </a>
-    </p>
-    <p class="control">
-      <a class="button is-primary">
-        <span class="icon">
-          <i class="fas fa-download" aria-hidden="true"></i>
-        </span>
-        <span>Download</span>
-      </a>
-    </p>
-  </div>
-</div>
         </template>
 
         <!-- <template slot="end">
