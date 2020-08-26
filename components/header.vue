@@ -15,9 +15,9 @@
             <b-navbar-item href="/products">
                 <font-awesome-icon icon="server"/>Products 
             </b-navbar-item>
-            <b-navbar-item href="/tmp">
+            <!-- <b-navbar-item href="/tmp">
                 <img src="@/assets/images/pica.gif">Tmp
-            </b-navbar-item>
+            </b-navbar-item> -->
         </template>
 
         <!-- <template slot="end">

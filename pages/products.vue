@@ -4,7 +4,7 @@
     <div class="container">
       <div class="section-heading">
         <h3 class="title is-2">Portfolio</h3>
-        <h4 class="subtitle is-5">My latest works</h4>
+        <h4 class="subtitle is-5">My works</h4>
       </div>
       <br>
     </div>
@@ -16,369 +16,76 @@
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title">
-                  <span>Admin <small>(Light)</small></span>
-                  <span class="is-pulled-right">
+                  <span>似てる芸能人AI</span>
+                  <!-- <span class="is-pulled-right">
                     <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
                       <span class="tag is-default">v0.7.2</span>
                     </a>
                     <span class="tag is-default">Desktop</span>
                     <span class="tag is-danger">WIP</span>
-                  </span>
+                  </span> -->
                 </p>
               </header>
               <div class="card-content">
                 <figure class="image">
-                  <img src="@/assets/images/hero.png">
+                  <img src="@/assets/images/face.png">
                 </figure>
               </div>
               <footer class="card-footer">
-                <a href="templates/admin.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!-- cards -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Cards</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">?</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/cards.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cards.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!-- forum -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Forum</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/forum.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/forum.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!-- insta album -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>InstaAlbum</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/instaAlbum.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/instaAlbum.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!-- landing -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Landing</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/landing.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/landing.html" class="card-footer-item">Source
+                <a href="https://obscure-scrubland-81645.herokuapp.com/" class="card-footer-item">Preview</a>
+                <a href="https://github.com/chocolatedisco/face_recognition_view" class="card-footer-item">Source
                   Code</a>
               </footer>
             </div>
             <br/>
           </div>
           <div class="column is-4">
-            <!-- band -->
+            <!-- admin -->
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title">
-                  <span>Band</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">?</span>
-                  </span>
+                  <span>Rails tutorial</span>
                 </p>
               </header>
               <div class="card-content">
                 <figure class="image">
-                  <img src="@/assets/images/hero.png">
+                  <img src="@/assets/images/tutorial.png">
                 </figure>
               </div>
               <footer class="card-footer">
-                <a href="templates/band.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/band.html" class="card-footer-item">Source
-                  Code</a>
+                <a href="https://tranquil-eyrie-67720.herokuapp.com/" class="card-footer-item">Preview</a>
+                <!-- <a href="https://github.com/chocolatedisco/face_recognition_view" class="card-footer-item">Source Code</a> -->
               </footer>
             </div>
             <br/>
-            <!-- cheatsheet -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Cheatsheet</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">?</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/cheatsheet.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cheatsheet.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!--kanban -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Kanban</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">?</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/kanban.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/kanban.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!-- login -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Login</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/login.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/login.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
           </div>
-          <br/>
           <div class="column is-4">
-            <!-- blog -->
+            <!-- admin -->
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title">
-                  <span>Blog</span>
-                  <span class="is-pulled-right">
+                  <span>似てる芸能人AI</span>
+                  <!-- <span class="is-pulled-right">
                     <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
                       <span class="tag is-default">v0.7.2</span>
                     </a>
                     <span class="tag is-default">Desktop</span>
                     <span class="tag is-danger">WIP</span>
-                  </span>
+                  </span> -->
                 </p>
               </header>
               <div class="card-content">
                 <figure class="image">
-                  <img src="@/assets/images/hero.png">
+                  <img src="@/assets/images/face.png">
                 </figure>
               </div>
               <footer class="card-footer">
-                <a href="templates/blog.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/blog.html" class="card-footer-item">Source
+                <a href="https://obscure-scrubland-81645.herokuapp.com/" class="card-footer-item">Preview</a>
+                <a href="https://github.com/chocolatedisco/face_recognition_view" class="card-footer-item">Source
                   Code</a>
               </footer>
             </div>
             <br/>
-            <!-- cover -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Cover</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/cover.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/cover.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!--inbox -->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Inbox</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">Mobile</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/inbox.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/inbox.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!--kanban with functional search-->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Kanban with Search box</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">?</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="@/assets/images/hero.png">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/kanban[search].html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/kanban[search].html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
-            <br/>
-            <!--tabs-->
-            <div class="card">
-              <header class="card-header">
-                <p class="card-header-title">
-                  <span>Modal Cards</span>
-                  <span class="is-pulled-right">
-                    <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                      <span class="tag is-default">v0.7.2</span>
-                    </a>
-                    <span class="tag is-default">Desktop</span>
-                    <span class="tag is-default">?</span>
-                  </span>
-                </p>
-              </header>
-              <div class="card-content">
-                <figure class="image">
-                  <img src="https://dummyimage.com/555x255/000/fff" alt="modal-cards template screenshot">
-                </figure>
-              </div>
-              <footer class="card-footer">
-                <a href="templates/modal-cards.html" class="card-footer-item">Preview</a>
-                <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/modal-cards.html" class="card-footer-item">Source
-                  Code</a>
-              </footer>
-            </div>
           </div>
         </div>
       </div>
